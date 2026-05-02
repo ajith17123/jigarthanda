@@ -1,0 +1,71 @@
+.nav-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+.navbar {
+    background-color: #4a2c0f;
+    padding: 1rem 2rem;
+}
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: #f2c94c !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.navbar-brand:hover {
+    color: #ffffff !important;
+}
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+.nav-link:hover {
+    color: #f2c94c !important;
+    transform: translateY(-2px);
+}
+.dropdown-menu {
+    background-color: #4a2c0f;
+    border: 2px solid #f2c94c;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.dropdown-item {
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.dropdown-item:hover {
+    background-color: #f2c94c;
+    color: #4a2c0f;
+}
+button.nav-item {
+    background: #f2c94c;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+button.nav-item .nav-link {
+    color: #4a2c0f !important; 
+    font-weight: 700;
+}
+button.nav-item:hover {
+    background: #ffffff;
+    transform: scale(1.05);
+}
+.navbar-toggler {
+    border: 2px solid #f2c94c;
+}
+.navbar-toggler-icon {
+    filter: invert(1) brightness(100%);
+}
+

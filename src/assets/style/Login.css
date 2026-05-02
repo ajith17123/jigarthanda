@@ -1,0 +1,107 @@
+.login-sec {
+    background-color: #fffaf5;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.section-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #2a1808;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.login-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #f1f1f1;
+}
+.title {
+    color: #2a1808;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.sub-para {
+    color: #6c757d;
+    font-size: 0.95rem;
+}
+.form-control {
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+.btn-login {
+    background-color: #2a1808;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: 0.4s;
+    border: none;
+}
+.btn-login:hover {
+    background-color: #f2c94c;
+    color: #2a1808;
+    transform: translateY(-2px);
+}
+
+.divider {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.divider span {
+    padding: 0 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.btn-icon {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #444;
+    transition: 0.3s;
+}
+.btn-icon:hover {
+    background-color: #f8f9fa;
+    border-color: #2a1808;
+    color: #2a1808;
+}
+.bi-google {
+    color: #db4437;
+}
+.bi-facebook {
+    color: #4267B2;
+}
+.signup-link {
+    color: #2a1808;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.signup-link:hover {
+    color: #f2c94c;
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    .login-card {
+        padding: 25px;
+    }
+    .section-title {
+        font-size: 1.8rem;
+    }
+}
